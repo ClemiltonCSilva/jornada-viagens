@@ -1,0 +1,26 @@
+.find-category-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.cat-card {
+  background-color: var(--background-secundary-color);
+  width: 312px;
+  height: 220px;
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  text-align: center;
+  border-radius: 8px;
+  padding: 41px 16px;
+  box-sizing: border-box;
+}
+
+.cat-card img {
+  margin-bottom: 24px;
+}
+
+.category .section-title h2 {
+  font-size: 32px;
+}

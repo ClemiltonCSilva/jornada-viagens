@@ -3,9 +3,10 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 
-.card {
+.offer-card {
   color: var(--text-secundary-color);
   width: 312px;
   height: 288px;
@@ -15,7 +16,7 @@
   border-radius: 16px;
   text-align: center;
 }
-.card header {
+.offer-card header {
   display: block;
   position: static;
   background-color: transparent;
@@ -23,44 +24,49 @@
   margin-bottom: 24px;
 }
 
-.card header p {
+.offer-card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
 }
 
-.card header h3 {
+.offer-card header h3 {
   font-size: 40px;
   font-weight: var(--titles-weight);
   margin: 8px 0 0;
 }
 
-.card header span {
+.offer-card header span {
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
 }
 
-.card.japao {
+.offer-card.japao {
   background: url(../img/card-toquio.jpg) no-repeat;
   background-size: cover;
 }
 
-.card.san-andres {
+.offer-card.san-andres {
   background: url(../img/card-sanandres.jpg) no-repeat;
   background-size: cover;
 }
 
-.card.paraiba {
+.offer-card.paraiba {
   background: url(../img/card-paraiba.jpeg) no-repeat;
   background-size: cover;
 }
 
-.card.manaus {
+.offer-card.manaus {
   background: url(../img/card-manaus.webp) no-repeat;
   background-size: cover;
 }
 
-.
+.find-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
 
 
 

@@ -44,11 +44,10 @@ body {
   color: var(--text-primary-color);
 }
 
-
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
-  margin: 0px;
+  margin: 0px 24px;
   text-align: center;
 }
 
