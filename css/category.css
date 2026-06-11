@@ -2,9 +2,9 @@
   margin-bottom: 88px;
 }
 
-.category-cards .section-title {
+.category .section-title {
   width: 312px;
-  height: 0 auto;
+  margin: 0 auto;
 }
 .category-cards {
   display: flex;
