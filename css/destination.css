@@ -21,16 +21,11 @@
 }
 
 .destination .destination-item .item h4 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
   margin: 24px 0;
 }
 
 .destination .destination-item .item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
   margin-bottom: 24px;
-  line-height: 32px;
 }
 
 .destination .button {

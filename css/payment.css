@@ -1,20 +1,13 @@
-.payment .text-content h3 {
-  font-size: 28px;
-}
-
-.payment .img-content p {
-  font-size: 20px;
-}
-
-.payment .payment-img {
-  display: inline-flex;
+.payment .img-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
   width: 100%;
   margin: 0 auto;
     
 }
 
-.payment .payment-img .img1 {
+.payment .img-content .image.bag {
   width: 144px;
   height: 254px;
   background: url(../img/imagem-pay-mobile1.png);
