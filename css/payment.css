@@ -26,7 +26,6 @@
   grid-column: span 2;
 }
 
- 
 @media screen and (min-width: 768px) {
   .payment .content-container .img-gallery .image.first {
     background: url(../img/imagem-pay-tablet1.png) no-repeat center/cover;
@@ -39,7 +38,6 @@
   .payment .content-container .img-gallery .image.thirdy {
     background: url(../img/imagem-pay-tablet3.png) no-repeat center/cover;
   }
-
 }
 
 @media screen and (min-width: 1440px) {
@@ -52,5 +50,6 @@
   }
   .payment .content-container .img-gallery {
     width: 790px;
+    margin-top: 0;
   }
-} 
+}
