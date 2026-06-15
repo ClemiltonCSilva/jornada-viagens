@@ -1,0 +1,55 @@
+.payment .content-container .img-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 460px;
+  gap: 24px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payment .content-container .img-gallery .image.first {
+  background: url(../img/imagem-pay-mobile1.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .content-container .img-gallery .image.second {
+  background: url(../img/imagem-pay-mobile2.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .content-container .img-gallery .image.thirdy {
+  background: url(../img/imagem-pay-mobile3.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .content-container .img-gallery .image.thirdy.span-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payment .content-container .img-gallery .image.first {
+    background: url(../img/imagem-pay-tablet1.png) no-repeat center/cover;
+  }
+
+  .payment .content-container .img-gallery .image.second {
+    background: url(../img/imagem-pay-tablet2.png) no-repeat center/cover;
+  }
+
+  .payment .content-container .img-gallery .image.thirdy {
+    background: url(../img/imagem-pay-tablet3.png) no-repeat center/cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payment .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .payment .content-container .text-content {
+    width: 361px;
+  }
+  .payment .content-container .img-gallery {
+    width: 790px;
+    margin-top: 0;
+  }
+}

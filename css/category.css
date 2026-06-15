@@ -20,11 +20,6 @@
   text-decoration: none;
 }
 
-.category-cards .card h3 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
-}
-
 .category-cards .card.single-line {
   padding-top: 50px;
 }
