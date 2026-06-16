@@ -1,60 +1,62 @@
-.footer-container {
-  display: block;
+.main-footer {
   background-color: var(--background-tertiary-color);
-  height: 300px;
-  text-align: center;
   padding: 32px 24px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
 }
 
-.footer-container header img {
-  width: 162px;
-  height: 40px;
+.main-footer .footer-content {
+  text-align: center;
+}
+
+.main-footer .footer-content img {
   margin-bottom: 16px;
 }
 
-.footer-container .footer-content-text {
-  width: 300px;
-  margin: 0 auto;
-}
-
-.footer-container .text-content-hour {
+.main-footer p {
+  color: var(--text-secundary-color);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
   margin-bottom: 8px;
 }
 
-.footer-container .text-content-text {
-  margin-bottom: 32px;
+.main-footer .footer-social {
+  text-align: center;
 }
 
-.footer-container p {
-  font-size: 16px;
-  font-weight: var(--text-weight);
-  color: var(--text-secundary-color);
-  line-height: 28px;
-}
-
-.footer-container .redes-sociais {
-  margin-top: 32px;
-}
-
-  .footer-container .redes-sociais-item {
-    margin-top: 16px;
+@media screen and (min-width: 768px) {
+  .main-footer {
+    padding: 32px 60px;
   }
-
- .footer-container .redes-sociais-item a{
-    margin-left: 8px;
-  }
-
-@media screen and (min-width: 1024px) {
-  .footer-container .footer-content-text {
-    width: 100%;
-  }
-
-  .footer-container p {
+  .main-footer p {
     font-size: 20px;
+    line-height: 32px;
+  }
+  .main-footer .footer-social {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 52px 120px;
   }
 
+  .main-footer .footer-content {
+    text-align: left;
+  }
 
+  .main-footer .footer-social {
+    width: 165px;
+  }
 
-
-
+  .main-footer .footer-social p {
+    font-size: 16px;
+  }
 }
