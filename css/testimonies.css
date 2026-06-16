@@ -42,6 +42,10 @@
 
 @media screen and (min-width: 1440px) {
   .testimonial .testimonial-container {
-    flex-direction: row;
-  }
+    flex-direction:row;
+    
+}
+
+  
+
 }

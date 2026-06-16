@@ -44,3 +44,29 @@
     padding: 88px 160px;
   }
 }
+
+
+/* -------------------------------------------------------------- */
+
+.hero-footer {
+  height: 400px;
+  width: auto;
+  background: url(../img/hero-pre-footer-mobile.png) no-repeat center
+    center/cover;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-footer {
+  height: 400px;
+    background: url(../img/hero-pre-footer-tablet.png) no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-footer {
+  height: 620px;
+  width: auto;
+    background: url(../img/hero-pre-footer-desk.png) no-repeat;
+  }
+}
