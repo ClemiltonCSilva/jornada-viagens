@@ -7,11 +7,6 @@
   background: url(../img/hero.jpg) no-repeat center center/cover;
 }
 
-.bottom-hero .hero-img {
-  background: url(../img/hero-pre-footer-mobile.png) no-repeat center
-    center/cover;
-}
-
 .hero h2 {
   padding: 88px 24px;
   margin: 0px;
@@ -21,9 +16,30 @@
   line-height: 1.5;
 }
 
+.bottom-hero .hero-img {
+  background: url(../img/hero-pre-footer-mobile.png) no-repeat center
+    center/cover;
+}
+
+.hero-pkg-viagem .hero-img,
+.bottom-hero-pkg-viagem .hero-img {
+  height: 460px;
+}
+
+.hero-pkg-viagem .hero-img {
+  background-image: url(../img/hero-pacoteviagems.png);
+  background-size: cover;
+}
+
+.bottom-hero-pkg-viagem .hero-img {
+  background-image: url(../img/hero-pre-footer-pkg-mobile.png);
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img,
-  .bottom-hero .hero-img {
+  .bottom-hero .hero-img,
+  .hero-pkg-viagem .hero-img {
     height: 620px;
   }
 
@@ -41,6 +57,19 @@
     padding: 88px 60px;
     font-size: 32px;
   }
+
+  .hero-pkg-viagem .hero-img {
+    background: url(../img/hero-pacoteviagems-tablet.png);
+    background-size: cover;
+  }
+
+  .hero-pkg-viagem .hero-img .section-title {
+    color: var(--text-secundary-color);
+    width: 100%;
+    margin: 0;
+    padding: 209px 69px 107px 120px;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -50,7 +79,8 @@
 
   .bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/hero-pre-footer-desk.png) no-repeat center center/cover;
+    background: url(../img/hero-pre-footer-desk.png) no-repeat center
+      center/cover;
   }
 
   .hero h2 {

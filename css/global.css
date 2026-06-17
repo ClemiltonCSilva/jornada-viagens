@@ -49,9 +49,10 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero, section.bottom-hero {
+section.hero, section.bottom-hero, section.hero-pkg-viagem, section.bottom-hero-pkg-viagem {
   width: 100%;
   margin: 0px;
+
 }
 
 .section-title {
@@ -65,6 +66,10 @@ section.hero, section.bottom-hero {
   text-align: center;
   margin: 0;
 }
+
+.destination .destination-item .item h3{
+  margin-top: 24px;
+}  
 
 .section-title hr {
   width: 180px;
