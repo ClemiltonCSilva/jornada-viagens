@@ -21,25 +21,15 @@
     center/cover;
 }
 
-.hero-pkg-viagem .hero-img,
-.bottom-hero-pkg-viagem .hero-img {
-  height: 460px;
-}
-
 .hero-pkg-viagem .hero-img {
   background-image: url(../img/hero-pacoteviagems.png);
   background-size: cover;
 }
 
-.bottom-hero-pkg-viagem .hero-img {
-  background-image: url(../img/hero-pre-footer-pkg-mobile.png);
-  background-size: cover;
-}
 
 @media screen and (min-width: 768px) {
   .hero .hero-img,
-  .bottom-hero .hero-img,
-  .hero-pkg-viagem .hero-img {
+  .bottom-hero .hero-img {
     height: 620px;
   }
 
@@ -49,8 +39,8 @@
 
   .bottom-hero .hero-img {
     height: 400px;
-    background: url(../img/hero-pre-footer-tablet.png) no-repeat center
-      center/cover;
+    background: url(../img/bottom-hero-tablet.png);
+    background-size: cover;
   }
 
   .hero h2 {
@@ -58,18 +48,6 @@
     font-size: 32px;
   }
 
-  .hero-pkg-viagem .hero-img {
-    background: url(../img/hero-pacoteviagems-tablet.png);
-    background-size: cover;
-  }
-
-  .hero-pkg-viagem .hero-img .section-title {
-    color: var(--text-secundary-color);
-    width: 100%;
-    margin: 0;
-    padding: 209px 69px 107px 120px;
-    box-sizing: border-box;
-  }
 }
 
 @media screen and (min-width: 1024px) {
