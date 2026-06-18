@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.bottom-hero-pkg-viagem .hero-img{
   height: 400px;
 }
 
@@ -21,15 +22,52 @@
     center/cover;
 }
 
+/* ------Pacotes de Viagens ------- */
+
 .hero-pkg-viagem .hero-img {
-  background-image: url(../img/hero-pacoteviagems.png);
+  height: 460px;
+  background: url(../img/hero-pacoteviagems-mobile.png);
   background-size: cover;
+  margin-bottom: 88px;
 }
 
 
+.bottom-hero-pkg-viagem .hero-img {
+  height: 400px;
+  background: url(../img/hero-pre-footer-pkg-mobile.png);
+  margin-top: 88px;
+}
+
+
+
+
+.hero-pkg-viagem .hero-img .section-title {
+  width: 312px;
+  color: var(--text-secundary-color);
+  text-align: left;
+  margin: 0;
+  padding: 65px 24px;
+}
+
+.hero-pkg-viagem .hero-img .section-title h2 {
+  font-size: 48px;
+  text-align: left;
+}
+
+.hero-pkg-viagem .hero-img .section-title hr {
+  margin: 16px 0 32px;
+}
+
+.hero-pkg-viagem .hero-img .section-title p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img,
-  .bottom-hero .hero-img {
+  .bottom-hero .hero-img,
+  .hero-pkg-viagem .hero-img {
     height: 620px;
   }
 
@@ -48,6 +86,23 @@
     font-size: 32px;
   }
 
+  /* ------ PACOTES DE VIAGENS ------ */
+
+  .hero-pkg-viagem .hero-img {
+    background: url(../img/hero-pacoteviagems-tablet.png) no-repeat center
+      center/cover;
+  }
+
+  .hero-pkg-viagem .hero-img .section-title {
+    width: 579px;
+    height: 303px;
+    padding: 209px 69px 107px 120px;
+  }
+
+  .hero-pkg-viagem .hero-img .section-title p {
+    font-size: 32px;
+    line-height: 48px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -64,6 +119,22 @@
   .hero h2 {
     padding: 88px 120px;
     font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-pkg-viagem .hero-img {
+    background: url(../img/hero-pacoteviagems-desk.png) no-repeat center
+      center/cover;
+  }
+
+  .hero-pkg-viagem .hero-img .section-title{
+    width: 579px;
+  }
+
+  .hero-pkg-viagem .hero-img .section-title p {
+    font-size: 32px;
+    text-align: left;
   }
 }
 

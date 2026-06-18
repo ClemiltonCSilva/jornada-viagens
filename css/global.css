@@ -49,9 +49,9 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero, section.bottom-hero, section.hero-pkg-viagem {
+section.hero, section.bottom-hero, section.hero-pkg-viagem, .bottom-hero-pkg-viagem {
   width: 100%;
-  margin: 0px;
+  margin: 0;
 
 }
 

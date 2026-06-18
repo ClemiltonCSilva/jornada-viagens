@@ -1,4 +1,5 @@
-.payment .content-container .img-gallery {
+.payment .content-container .img-gallery, 
+.payment .content-container .img-gallery-pkg{
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 460px;
@@ -7,24 +8,57 @@
   width: 100%;
 }
 
+
 .payment .content-container .img-gallery .image.first {
-  background: url(../img/imagem-pay-mobile1.png) no-repeat;
+  background: url(../img/imagem-pay-tablet1.png) no-repeat;
   background-size: cover;
 }
 
 .payment .content-container .img-gallery .image.second {
-  background: url(../img/imagem-pay-mobile2.png) no-repeat;
+  background: url(../img/imagem-pay-tablet2.png) no-repeat;
   background-size: cover;
 }
 
 .payment .content-container .img-gallery .image.thirdy {
-  background: url(../img/imagem-pay-mobile3.png) no-repeat;
+  background: url(../img/imagem-pay-tablet3.png) no-repeat;
   background-size: cover;
 }
 
 .payment .content-container .img-gallery .image.thirdy.span-2 {
   grid-column: span 2;
 }
+
+
+
+
+
+/* --------- Pacotes de Viagem ---------- */
+
+
+.payment .content-container .img-gallery-pkg .image.first {
+  background: url(../img/payment-japao1-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .content-container .img-gallery-pkg .image.second {
+  background: url(../img/payment-japao2-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .content-container .img-gallery-pkg .image.thirdy {
+  background: url(../img/payment-japao3-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payment .content-container .img-gallery-pkg .image.thirdy.span-2 {
+  grid-column: span 2;
+}
+
+
+
+
+
+
 
 @media screen and (min-width: 768px) {
   .payment .content-container .img-gallery .image.first {
